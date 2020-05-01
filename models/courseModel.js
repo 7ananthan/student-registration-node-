@@ -9,5 +9,5 @@ const courseSchema =new mongoose.Schema(
         duration:String
     }
 );
-const coursemodel =new mongoose.model('courses',courseSchema );
+const coursemodel =new mongoose.model('courses_details',courseSchema );
 module.exports={coursemodel}

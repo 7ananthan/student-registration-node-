@@ -10,5 +10,5 @@ const studentSchema = new mongoose.Schema(
         parentPhn:String
     }
 );
-const studentmodel=mongoose.model('students',studentSchema);
+const studentmodel=mongoose.model('student_details',studentSchema);
 module.exports={studentmodel}
