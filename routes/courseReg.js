@@ -12,4 +12,13 @@ courserouter.post("/",async(req,res)=>{
         res.status(500).send(error);
     }
 });
+courserouter.get('/viewall',async(req,res)=>{
+    try {
+        var result =await  coursemodel.find();
+        res.send(result);
+    } catch (error) {
+        console.log(error);
+        res.status(500).send(error);
+    }
+});
 module.exports=courserouter;
