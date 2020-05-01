@@ -1,0 +1,16 @@
+{
+  "name": "student-details-reg",
+  "version": "1.0.0",
+  "description": "student details registration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "ananthan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.11"
+  }
+}
